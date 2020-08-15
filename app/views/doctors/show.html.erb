@@ -1,6 +1,6 @@
 <h2><%= @doctor.name %> </h2>
 
 <% @user.posts.each do |post| %>
-  <%= appointment.appointment_datetime.strftime('%B %d, %Y') %> 
+  <%= appointment.appointment_datetime.strftime('%B %d, %Y') %>
   at <%= appointment.appointment_datetime.strftime('%H:%M')%>
 <% end %>
